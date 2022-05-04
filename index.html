@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Store</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@900&family=Josefin+Slab:wght@700&display=swap" rel="stylesheet">
+
+    <link href="js/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_700.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="box_header">
+            <a class="logo" href=""></a>
+            <ul class="social_media">
+                <li class="sm">
+                    <a href="" class="fb"></a>
+                </li>
+                <li class="sm">
+                    <a href="" class="inst"></a>
+                </li>
+                <li class="sm">
+                    <a href="" class="yt"></a>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="box_central">
+            <ul class="nav">
+                <li class="nav_item"><a href="">home</a></li>
+                <li class="nav_item"><a href="">services</a></li>
+                <li class="nav_item"><a href="">about</a></li>
+                <li class="nav_item"><a href="">contact</a></li>
+                <li class="nav_item"><a href="">sign in</a></li>
+            </ul>
+
+            <div class="box_green">
+                <div class="greener_space">
+                    <h1 class="textillate">Greener space.</h1>
+                    <h2>Clean air in your home.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+                    </p>
+                    <div class="btn_group">
+                        <a href="">Sign in</a>
+                        <a href="">Read more</a>
+                    </div>
+                </div>
+
+                <div class="box_plant">
+                    <img src="img/plant.png" alt="" class="plant">
+                </div>
+
+                <img class="plant_store" src="img/plant_store.png" alt="">
+            </div>
+        </div>
+
+        <ul class="box_right">
+            <li class="item_03">
+                <p>.03</p>
+            </li>
+            <li>
+                <div class="flex_rect">
+                    <svg>
+                        <rect width="34" height="43" fill="#b9e18c" />
+                    </svg>
+
+                    <svg>
+                        <rect width="34" height="43" fill="#a2c67a" />
+                    </svg>
+
+                    <svg>
+                        <rect width="34" height="43" fill="#8ba969" />
+                    </svg>
+                </div>
+            </li>
+            <li class="p_wrap">
+                <p class="plant_name">Plant name</p>
+            </li>
+        </ul>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.lettering.js"></script>
+    <script src="js/jquery.textillate.js"></script>
+    <script>
+        $(function() {
+            $(' .textillate ').textillate({ in: {
+                    effect: 'bounceInLeft'
+                }
+            });
+        })
+    </script>
+</body>
+
+</html>

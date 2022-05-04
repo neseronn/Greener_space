@@ -1,0 +1,151 @@
+@media (max-width:700px) {
+    h1 {
+        font-size: 47px;
+        letter-spacing: 0.1px;
+        line-height: 36.5px;
+        margin-top: 52px;
+        margin-bottom: 55.6px;
+    }
+    h2 {
+        font-size: 12px;
+        letter-spacing: 0.15px;
+        width: 129px;
+        padding: 0.23em 0.35em 0.12em 0.65em;
+        margin-left: 0px;
+        margin-bottom: 9.6px;
+    }
+    .wrap {
+        max-width: 700px;
+        height: 100%;
+    }
+    /* box_header */
+    .box_header {
+        padding-right: 0.55%;
+        flex-basis: 6.83%;
+        border-right: 2px solid #7e7e7e;
+    }
+    .logo {
+        margin: 33px auto;
+        width: 12px;
+        height: 57px;
+    }
+    .social_media {
+        margin-bottom: 56px;
+    }
+    .sm {
+        margin-top: 14px;
+    }
+    .fb {
+        width: 12px;
+        height: 12px;
+        background-position: 0px 0px;
+    }
+    .inst {
+        width: 12px;
+        height: 12px;
+        background-position: 0px -26px;
+    }
+    .yt {
+        width: 12px;
+        height: 12px;
+        background-position: 0px -52px;
+    }
+    /* box_central */
+    .box_central {
+        flex-basis: 76%;
+        padding: 20.2px 30px 60px 32px;
+    }
+    .nav {
+        margin-left: 65px;
+    }
+    .nav_item {
+        margin: 0 3.5px;
+    }
+    .nav_item:nth-child(3) {
+        margin-left: 9px;
+        margin-right: 2px;
+    }
+    .nav_item:nth-child(4) {
+        margin-left: 11px;
+        margin-right: 2px;
+    }
+    .nav_item a {
+        padding: 5px 7.5px;
+        font-size: 6px;
+        font-weight: 700;
+        letter-spacing: 1.25px;
+    }
+    /* box */
+    .greener_space {
+        max-width: 190px;
+    }
+    .greener_space>p {
+        margin-left: 3.5px;
+        font-size: 10px;
+        letter-spacing: -0.235px;
+        line-height: 12.6px;
+    }
+    .btn_group {
+        margin-top: 26.5px;
+        margin-left: 4px;
+        width: 122px;
+    }
+    .btn_group>a {
+        padding: 0.5px 4.6px 2.5px 3.3px;
+        letter-spacing: -0.1px;
+        font-size: 11px;
+    }
+    .plant {
+        margin-top: 47px;
+        width: 262px;
+    }
+    .plant_store {
+        width: 72px;
+        left: 10px;
+        margin: 172px auto;
+    }
+    /* box_right */
+    .box_right {
+        margin-top: 20px;
+        margin-left: 0;
+        flex-basis: 7.5%;
+    }
+    .item_03 p {
+        width: 12px;
+        padding: 0.35em 0.7em 0.32em 0.6em;
+        font-size: 10px;
+        letter-spacing: -0.5px;
+        border-top: 2px solid #505050;
+        border-bottom: 2px solid #505050;
+        margin: 0 15px auto auto;
+    }
+    .flex_rect {
+        margin-top: 46px;
+        margin-left: 23.5%;
+    }
+    .flex_rect>svg {
+        width: 18px;
+        height: 22.5px;
+    }
+    .flex_rect>svg>rect {
+        width: 18px;
+        height: 22.5px;
+    }
+    .p_wrap {
+        width: 49px;
+    }
+    .plant_name {
+        width: 40px;
+        margin-left: 3px;
+        margin-bottom: 58px;
+        font-size: 10px;
+        letter-spacing: -0.47px;
+        line-height: 13px;
+    }
+    .plant_name::before {
+        margin: 0 1.5px 1.3px -5px;
+        width: 0.29em;
+        height: 0.29em;
+        border-radius: 50%;
+    }
+}
